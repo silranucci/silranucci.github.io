@@ -13,7 +13,7 @@ dateformNumTime = "2006-01-02 15:04"
 
 [[params.social]]
 name = "linkedin"
-url = "https://www.linkedin.com/in/silvestroranucci/https://it.linkedin.com/in/silvestro-ranucci"
+url = "https://www.linkedin.com/in/silvestro-ranucci"
 
 [[params.social]]
 name = "github"
@@ -64,12 +64,12 @@ logoHomeLink = "/"
 # alt = "Your example logo alt text"
 
 # And you can even create generic menu
-# [[menu.main]]
-# identifier = "blog"
-# name = "Blog"
-# url = "/posts"
+[[menu.main]]
+identifier = "blog"
+name = "Blog"
+url = "/posts"
 
-# [[menu.main]]
-# identifier = "about"
-# name = "About"
-# url = "/about"
+[[menu.main]]
+identifier = "about"
+name = "About"
+url = "/about"
