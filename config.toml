@@ -1,8 +1,31 @@
-baseurl = "localhost"
-title = "sranu"
+baseurl = "www.sranu.me"
+title = "Silvestro Ranucci's TIL blog"
 languageCode = "en-us"
 theme = "hello-friend-ng"
 paginate = 10
+
+archetypeDir = "archetypes"
+contentDir   = "content"
+dataDir      = "data"
+layoutDir    = "layouts"
+publishDir   = "public"
+
+buildDrafts  = false
+buildFuture  = false
+buildExpired = false
+canonifyURLs = true
+
+enableRobotsTXT = true
+enableGitInfo   = false
+enableEmoji     = true
+enableMissingTranslationPlaceholders = false
+disableRSS     = false
+disableSitemap = false
+disable404     = false
+disableHugoGeneratorInject = false
+
+[permalinks]
+posts = "/posts/:year/:month/:title/"
 
 [params]
 dateform = "Jan 2, 2006"
@@ -13,7 +36,7 @@ dateformNumTime = "2006-01-02 15:04"
 
 [[params.social]]
 name = "linkedin"
-url = "https://www.linkedin.com/in/silvestro-ranucci/"
+url = "https://www.linkedin.com/in/silvestroranucci/"
 
 [[params.social]]
 name = "github"
@@ -21,10 +44,22 @@ url = "https://github.com/silranucci"
 
 [[params.social]]
 name = "email"
-url = "mailto:sranu@pm.me"
+url = "mailto:hello@sranu.me"
 
-# Subtitle for home
-#homeSubtitle = "A simple and beautiful blog"
+[params.author]
+  name = "Silvestro Ranucci"
+
+[params.footer]
+  trademark = 2023
+  rss = true
+  copyright = true
+  author = true
+
+  topText = []
+  bottomText = [
+    "Powered by <a href=\"http://gohugo.io\">Hugo</a>",
+    "Made with &#10084; by <a href=\"https://github.com/rhazdon\">Djordje Atlialp</a>"
+  ]
 
 # Set disableReadOtherPosts to true in order to hide the links to other posts.
 disableReadOtherPosts = false
@@ -51,25 +86,23 @@ title = "Silvestro Ranucci"
 keywords = "blog, homepage"
 copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
 readOtherPosts = "Read other posts"
+homeSubtitle = "Software engineer"
 
 [languages.en.params]
 subtitle = ""
 
 [languages.en.params.logo]
-logoText = "A type of programmer"
+logoText = "/home/sranu/"
 logoHomeLink = "/"
-# or
-#
-# path = "/img/your-example-logo.svg"
-# alt = "Your example logo alt text"
+logoCursorPathname = true
 
-# And you can even create generic menu
-# [[menu.main]]
-# identifier = "blog"
-# name = "Blog"
-# url = "/posts"
+# [params.portrait]
+  # path     = "https://www.zooplus.be/magazine/wp-content/uploads/2018/12/cane-corso-2-768x513.jpg"
+  # alt      = "Portrait"
+  # maxWidth = "200px"
 
-# [[menu.main]]
-# identifier = "about"
-# name = "About"
-# url = "/about"
+[[menu.main]]
+identifier = "Posts"
+name = "Posts"
+url = "/posts"
+

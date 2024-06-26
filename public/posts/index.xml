@@ -1,0 +1,32 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Posts on Silvestro Ranucci</title>
+        <link>www.sranu.me/posts/</link>
+        <description>Recent content in Posts on Silvestro Ranucci</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
+        <lastBuildDate>Wed, 26 Jun 2024 12:00:00 +0200</lastBuildDate>
+        <atom:link href="www.sranu.me/posts/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>Hello, world!</title>
+            <link>www.sranu.me/posts/2024/06/hello-world/</link>
+            <pubDate>Wed, 26 Jun 2024 12:00:00 +0200</pubDate>
+            
+            <guid>www.sranu.me/posts/2024/06/hello-world/</guid>
+            <description>Welcome to my space on the internet!
+I have been thinking about starting a personal blog for about two years now. Nothing too serious - just a place to share what I am learning. There&amp;rsquo;s no set publishing plan and no strict theme. The only sure thing is that I will write about a variety of computer science topics.
+Stay tuned.
+See you soon!</description>
+            <content type="html"><![CDATA[<p>Welcome to my space on the internet!</p>
+<p>I have been thinking about starting a personal blog for about two years now. Nothing too serious - just a place to share
+what I am learning. There&rsquo;s no set publishing plan and no strict theme. The only sure thing is that I will write
+about a variety of computer science topics.</p>
+<p>Stay tuned.</p>
+<p>See you soon!</p>
+]]></content>
+        </item>
+        
+    </channel>
+</rss>
